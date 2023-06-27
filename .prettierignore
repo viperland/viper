@@ -1,0 +1,20 @@
+# misc
+.DS_Store
+.vscode
+pnpm-lock.yaml
+
+# dependencies
+node_modules/
+
+# output
+build/
+package/
+
+# tests
+*.spec.ts
+*.e2e-spec.ts
+
+# environment variables
+.env
+.env.*
+!.env.example
